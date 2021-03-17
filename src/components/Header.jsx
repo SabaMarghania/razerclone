@@ -12,7 +12,7 @@ function header() {
     const razerlogo='https://hybrismediaprod.blob.core.windows.net/sys-master-phoenix-images-container/h5b/h8c/8796147679262/razer.svg'
     return (
         <div className='header'>
-            <Link to="/" style={{marginLeft:'8%'}}>
+            <Link to="/home" style={{marginLeft:'8%'}}>
             <div className="header__image">
                 <img src={razerlogo} alt="Razer logo"/>
             </div>
