@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/razerclone/static/css/main.13b59716.chunk.css",
+    "main.js": "/razerclone/static/js/main.6a9d62a3.chunk.js",
+    "main.js.map": "/razerclone/static/js/main.6a9d62a3.chunk.js.map",
+    "runtime-main.js": "/razerclone/static/js/runtime-main.872ac113.js",
+    "runtime-main.js.map": "/razerclone/static/js/runtime-main.872ac113.js.map",
+    "static/js/2.701c91c2.chunk.js": "/razerclone/static/js/2.701c91c2.chunk.js",
+    "static/js/2.701c91c2.chunk.js.map": "/razerclone/static/js/2.701c91c2.chunk.js.map",
+    "static/js/3.2892d246.chunk.js": "/razerclone/static/js/3.2892d246.chunk.js",
+    "static/js/3.2892d246.chunk.js.map": "/razerclone/static/js/3.2892d246.chunk.js.map",
+    "index.html": "/razerclone/index.html",
+    "static/css/main.13b59716.chunk.css.map": "/razerclone/static/css/main.13b59716.chunk.css.map",
+    "static/js/2.701c91c2.chunk.js.LICENSE.txt": "/razerclone/static/js/2.701c91c2.chunk.js.LICENSE.txt",
+    "static/media/Body.css": "/razerclone/static/media/razercard4.ee4c6203.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872ac113.js",
+    "static/js/2.701c91c2.chunk.js",
+    "static/css/main.13b59716.chunk.css",
+    "static/js/main.6a9d62a3.chunk.js"
+  ]
+}
