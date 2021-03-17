@@ -1,0 +1,78 @@
+body{
+    background-color: #222;
+}
+.LaptopsCard{
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    margin-left: 3rem;
+}
+.LaptopsCard__cont{
+    width: 300px;
+    margin-top: 50px;
+}
+.LaptopsCard__title{
+    padding: 10px;
+}
+.LaptopsCard__title h4{
+    color: #fff;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    word-break: break-word;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+.LaptopsCard__image{
+    background-color: #111;
+}
+.LaptopsCard__image img{
+    width: 300px !important;
+    height: 250px;  
+    object-fit: cover;
+}
+.LaptopsCard__bottom_cont{
+    background-color: rgb(0, 0, 0);
+}
+.LaptopsCard__specifications ul{
+    color: #999;
+}
+.LaptopsCard__specifications{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+.Laptopscard__detials{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #44d62c;
+    font-size: 14px;
+}
+.laptopscard__price h4{
+    color: #fff;
+    font-weight: 400;
+}
+.laptopscard__price{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.laptopscard__button button{
+    text-transform: uppercase;
+    margin: 1.5rem 1.25rem;
+    max-width: 19.375rem;
+    min-width: 8.125rem;
+    border-radius: .1875rem;
+    color: #000;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 700;
+    height: 2.5rem;
+    line-height: 1.4em;
+    max-height: none;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #44d62c;
+    border: 0;
+}

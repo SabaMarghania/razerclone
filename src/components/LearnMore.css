@@ -1,0 +1,83 @@
+.LearnMore{
+    display: flex;
+    padding-top: 3.5rem;
+}
+.LearnMore__left{
+    width: 70%;
+}
+.LearnMore__right{
+    width: 40%;
+    
+    background-color: #000;
+}
+.LearnMore__right__cont{
+    padding-top: 1rem;
+    padding-left:2rem;
+}
+.LearnMore__left__image{
+    height: 90vh;
+}
+.LearnMore__left__image img{
+    width: 100%;
+    height: 100%;
+}
+.LearnMore__right_title h2{
+    color: #44d62c;
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    line-height: 1.1em;
+}    
+.LearnMore__right_text {
+    margin-top: .5rem;
+}
+.LearnMore__right_text p{
+    font-family: Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: .875rem;
+    line-height: 1.2;
+    color: #fff ;
+}
+.LearnMore__right_price h3{
+    color: #fff ;
+    margin-top: .5rem;
+    font-size: 1.3125rem;
+}
+.LearnMore__right_details{
+    font-size: .875rem;
+    margin-top: 2.1875rem;
+    padding-bottom: 1.5rem;
+}
+.LearnMore__right_details li{
+    line-height: 1.4;
+    color: #999;
+}
+.LearnMore__right_card{
+    margin-top: 3.1875rem;
+
+}
+.LearnMore__right_card p{
+    color: #999;
+    font-size: .875rem;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.LearnMore__right_card button{
+    border-radius: .1875rem;
+    cursor: pointer;
+    color: #000;
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+    height: 2.5rem;
+    margin-top: 3.1875rem;
+    line-height: 1.4em;
+    max-height: none;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #44d62c;
+    border: 0;
+    width: 300px;
+}

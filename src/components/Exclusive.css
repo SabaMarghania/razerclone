@@ -1,0 +1,155 @@
+.Exclusive__image{
+    background-image: url(//assets2.razerzone.com/images/pnx.assets/cb268908975016a4b746c2943c0763b6/exclusives-advantage-book13-hero-desktop.jpg);
+    min-height: 700px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Exclusive__intro{
+    display: flex;
+    background-color: #44d62c;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+.Exclusive__intro-title h2{
+    color: #000;
+    font-family: RazerF5;
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.Exclusive__intro-subtitle{
+    text-align: center;
+    color: #000;
+    max-width: 750px;
+    margin: 0 auto;font-size: 1.125rem;
+    font-weight: 300;
+    grid-area: second;
+    line-height: 2rem;
+}
+.Exclusive__razer_info{
+    background-color: #111;
+}
+.Exclusive__razer_info_grid__cont{
+    display: grid;
+    padding-top: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.Exclusive__razer_info_title{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.Exclusive__razer_info_title h1{
+    font-weight: 200;
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    line-height: normal;
+    color: #44d62c;
+}
+.Exclusive__razer_info_grid{
+    padding: 10px 0;
+    max-width: 17.5rem;
+    margin: 0 auto;
+    align-self: start;
+    background-image: none;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Exclusive__razer_info_image{
+    display: flex;
+    justify-content: center;
+}
+.Exclusive__razer_grid_title h4{
+    text-align: center;
+
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #fff;
+    padding: 20px 0 0 0;
+}
+.Exclusive__razer_grid_text p{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 0.7rem;
+    line-height: 1.5rem;
+    color: #888;
+}
+.Exclusive__razer_grid_text{
+    text-align: center;
+}
+.Exclusive__mice{
+    margin: 0 auto;
+    padding-top: 2rem;  
+     display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+.Exclusive__mice__cont{
+    width: 280px;
+    padding-top: 2rem;
+   
+}
+.Exclusive__mice__main{
+    width: 100%;
+ 
+}
+.Exclusive__title{
+    padding-top: 2rem;
+
+}
+.Exclusive__title h2{
+    text-align: center;
+    color: #44d62c;
+    font-family: "RazerF5", Arial, Helvetica, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 200;
+    letter-spacing: 0.0625rem;
+    line-height: 1.875rem;
+}
+.Exclusive__mice__image img{
+    max-width: 100%;
+    width: max-content;
+} 
+.Exclusive__mice__bottom{
+    background-color: #111;
+    border-bottom: 1px solid #44d62c;
+    display: grid;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 1.125rem;
+    height: 150px;
+}
+.Exclusive__mice__title h3{
+text-align: left;
+text-transform: capitalize;
+font-weight: 300;
+font-size: 1.125rem;
+    padding: 10px 10px 0 10px;
+    color: #fff;
+}
+.Exclusive__mice__text p{
+    color: #888;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+}
+.Exclusive__mice__detail p{
+align-self: end;
+display: inline-block;
+font-family: "Roboto",Helvetica,Arial,sans-serif;
+font-size: 14px;
+margin: 0;
+padding: 10px;
+text-align: left;    
+color: #44d62c;
+width: 100%;
+}

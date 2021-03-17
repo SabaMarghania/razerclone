@@ -1,0 +1,82 @@
+
+.AccessoriesPage{
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    margin-left: 3rem;
+}
+.AccessoriesPage__cont{
+    width: 300px;
+    margin-top: 50px;
+}
+.AccessoriesPage__title{
+    height: 50px;
+    padding: 10px;
+}
+.AccessoriesPage__title h4{
+    color: #fff;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    word-break: break-word;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+.AccessoriesPage__image{
+    background-color: #111;
+}
+.AccessoriesPage__image img{
+    width: 300px !important;
+    height: 250px;  
+    object-fit: cover;
+}
+.AccessoriesPage__bottom_cont{
+    background-color: rgb(0, 0, 0);
+    height: 50vh;
+}
+.AccessoriesPage__specifications ul{
+    color: #999;
+}
+.AccessoriesPage__specifications{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+.AccessoriesPage__info_cont{
+    height: 185px;
+}
+.AccessoriesPage__detials{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #44d62c;
+    font-size: 14px;
+}
+.AccessoriesPage__price h4{
+    color: #fff;
+    font-weight: 400;
+}
+.AccessoriesPage__price{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.AccessoriesPage__button button{
+    text-transform: uppercase;
+    margin: 1.5rem 1.25rem;
+    max-width: 19.375rem;
+    min-width: 8.125rem;
+    border-radius: .1875rem;
+    color: #000;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 700;
+    height: 2.5rem;
+    line-height: 1.4em;
+    max-height: none;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #44d62c;
+    border: 0;
+}

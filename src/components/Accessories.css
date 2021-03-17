@@ -1,0 +1,36 @@
+.Accessories__navbar{
+    background-color: #000;
+    padding-bottom: 0.5rem;
+}
+.Accessories__text{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+.Accessories__text h2{
+    color:#fff;
+}
+.Accessories__navbar__cont{
+    width: 500px;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+.Accessories__navbar__links p{
+    color: #999;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    font-size: .875rem;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-weight: 700;
+}
+.Accessories__navbar__links p:hover{
+    color:#44d62c;
+    border-bottom: 2px solid #44d62c;
+}
+.Accessories__navbar__links{
+    display: flex;
+    justify-content: center;
+}

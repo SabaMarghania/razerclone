@@ -1,0 +1,92 @@
+.Footer{
+    background-color: #222;
+    padding-bottom: 1.5625rem;
+    padding-top: 1.5625rem;
+}
+.Footer__row_cont p{
+    color:#999;
+    padding: 0 .25rem;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    cursor: pointer;
+    font-weight: 400;
+    font-size:14px;
+}
+.Footer__row_cont p::before{
+    color: #999;
+    content: "|";
+    padding-left: .175rem;
+    padding-right: .1875rem;
+}
+.Footer__row_cont{
+    display: flex;
+    padding-top: 1.75rem;
+
+}
+.Footer__right_infos{
+    display: flex;
+    margin-left: 9%;
+    width: 350px;
+    justify-content: space-between;
+}
+.footer__right_icons{
+    width: 140px;
+    justify-content: space-between;
+}
+.Footer__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #44d62c;
+}
+.Footer__right_infos h5{
+    color: #44d62c;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer__right_icons{
+    display: flex;
+
+}
+
+.Footer__row{
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+.Footer__row_cont span{
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size:14px;
+    cursor: pointer;
+    color:#fff;
+}
+.Footer__row_last p{
+    color: #999;
+    padding: 0 .25rem;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.Footer__row_last p:hover{
+    text-decoration: underline;
+    color:#fff;
+}
+.Footer__row_cont p:hover{
+    text-decoration: underline;
+    color:#fff;
+}
+.Footer__row_last span{
+    color: #fff;
+    padding: 0 .25rem;
+    font-family: RazerF5,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size:14px;
+    font-weight: 400;
+}
+.Footer__row_last{
+    display: flex;
+    padding-top: 1.75rem;
+}

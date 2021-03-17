@@ -1,0 +1,86 @@
+.Body{
+    padding-top: 3rem;
+}
+.Body__first_image{
+    height: 80vh;
+    background-image: url('../image/razer.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Body__second_image{
+    height: 80vh;
+    background-image: url('../image/razer2.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Body__first__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.7rem;
+    text-align: center;
+}
+.Body__third__image{
+    height: 80vh;
+    background-image: url('../image/razer3.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Body__first__text h1{
+    color: #999;
+    font-size: 2.5rem;
+    font-family: "RazerF5", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.Body__first__text span{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "RazerF5", sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.body__text{
+    font-size: 1.9rem !important;
+    
+}
+.Body__highlights{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Body__first_card{
+    height: 500px;
+    background-image: url('../image/razercard1.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+}
+.Body__second_card{
+    height: 500px;
+    background-image: url('../image/razercard2.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+}
+.Body__third_card{
+    width: 50%;
+    height: 500px;
+    background-image: url('../image/razercard3.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Body__fourth_card{
+    width: 50%;
+    height: 500px;
+    background-image: url('../image/razercard4.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
