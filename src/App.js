@@ -34,23 +34,44 @@ function App() {
         </Route>
     <Route path="/learnMore/Airpods">
           <Header/>
-          <LearnMoreAirpods/>
+          <LearnMoreAirpods
+          id='9'
+          title='Razer THS Case for AirPods Pro - Black'
+          image='//assets3.razerzone.com/OSml05ThFIon314-XgIG4o3_ykg=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh59%2Fhd3%2F9099885871134%2FPHOENIX-HERO-razer-ths-case-airpods-pro-2.jpg'
+          text='Protective Cover for AirPods Pro Charging Case'
+          price='US$29.99'/>
           <Footer/>
         </Route>
      <Route path="/learnMore/earbuds/HammerHead">
           <Header/>
-          <LearnMoreHammerhead/>
+          <LearnMoreHammerhead
+          id='8'
+          title='Razer Hammerhead True Wireless Earbuds - Quartz  '
+          image='//assets3.razerzone.com/YYBUEWwrshbzU10EKEwWd9_M1a4=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh14%2Fhdd%2F9085328195614%2FHHtruewireless-Gallery-quartz1-1500x1000.jpg'
+          text='True Wireless Earbuds'
+          price='US$99.99'/>
           <Footer/>
         </Route>
      <Route path="/learnMore/headset/Kraken">
           <Header/>
-          <LearnMoreHeadsetKraken/>
+          <LearnMoreHeadsetKraken
+           id='7'
+           title='Razer Kraken X - Mercury'
+           image='//assets3.razerzone.com/fcJgl3x2Ef89aH8Kh0aW0q-CxTY=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhae%2Fh70%2F9081232424990%2Frazer-kraken-x-mercury-gallery-hero.jpg'
+           text='Multi-Platform Wired Gaming Headset'
+           price='US$49.99'/>
           <Footer/>
         </Route>
 
     <Route path="/learnMore/headset/blackShark">
           <Header/>
-          <LearnMoreHeadset/>
+          <LearnMoreHeadset
+          id='6'
+          title='Razer BlackShark V2 Special Edition'
+          image='//assets3.razerzone.com/t3vuBVdFcCs_IobMRZ-Dx7qU7i4=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh44%2Fha7%2F9083348025374%2Fblackshark-Phoenix-1500x1000-SE-hero.jpg'
+          text='Multi-platform wired esports headset'
+          price='US$109.99'
+          />
           <Footer/>
         </Route>
 

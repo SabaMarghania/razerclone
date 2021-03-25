@@ -8,7 +8,7 @@ function Cart() {
         <div className='Cart'>
             <div className="Cart__top">
                 <div className="Cart__items">
-                    <h3>Cart(1 items)</h3>
+                    <h3>Cart( {basket.length} Items)</h3>
                 </div>
                 <div className="Cart__info">
                     <div className="Cart__sum">
