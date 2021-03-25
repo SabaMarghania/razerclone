@@ -1,0 +1,48 @@
+.checkoutProduct {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkoutProduct__info {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.checkoutProduct__info > button {
+    background: 0 0;
+    text-decoration:underline;
+    width: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    border:none;
+    height: 20px;
+    color: rgb(118, 118, 118);
+}
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+
+.checkoutProduct__title {
+    padding-top: 30px;
+    font-family: Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 17px;
+    font-weight: 800;
+    color: #fff;
+}
+.checkoutProduct__price strong{
+    font-family: Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 1.125rem;
+    line-height: 1.2em;
+}
+.checkoutProduct__price{
+    padding-top: 30px;
+
+}

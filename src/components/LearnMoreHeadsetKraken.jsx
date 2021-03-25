@@ -5,7 +5,7 @@ function LearnMore() {
         <div className='LearnMore'>
             <div className="LearnMore__left">
                 <div className="LearnMore__left__image">
-                    <img src='https://assets3.razerzone.com/yDeALZ3gelMSIsoW7Q7j2TE6CWA=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh10%2Fhad%2F9011306463262%2Frazer-kraken-x-mercury-gallery-hero.jpg' alt=''/>
+                    <img src='https://assets3.razerzone.com/fcJgl3x2Ef89aH8Kh0aW0q-CxTY=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhae%2Fh70%2F9081232424990%2Frazer-kraken-x-mercury-gallery-hero.jpg' alt=''/>
                 </div>
             </div>
 

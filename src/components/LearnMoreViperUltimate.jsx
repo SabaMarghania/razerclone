@@ -1,24 +1,41 @@
 import React from 'react'
+import { useStateValue } from "./StateProvider";
 import './LearnMore.css'
-function LearnMore() {
+function LearnMore({id,title,image,text,price}) {
+    const [{ basket }, dispatch] = useStateValue();
+    
+    const addToBasket = () => {
+        // dispatch the item into the data layer
+        dispatch({
+          type: "ADD_TO_BASKET",
+          item: {
+            id: id,
+            title: title,
+            image: image,
+            text:text,
+            price: price,
+          },
+        });
+      };
+    
     return (
         <div className='LearnMore'>
             <div className="LearnMore__left">
                 <div className="LearnMore__left__image">
-                    <img src='https://assets3.razerzone.com/CbUjCHxcgkzPei8Ja6XmM9L-vro=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb3%2Fh83%2F9099485675550%2Fcyberpunk-2077-viper-ultimate-1500x1000-1.jpg' alt=''/>
+                    <img src={image} alt=''/>
                 </div>
             </div>
 
             <div className="LearnMore__right">
                 <div className="LearnMore__right__cont">
                     <div className="LearnMore__right_title">
-                        <h2>Razer Viper Ultimate with Charging Dock - Cyberpunk 2077 Edition</h2>
+                        <h2>{title}</h2>
                     </div>
                     <div className="LearnMore__right_text">
-                        <p>Ambidextrous Gaming Mouse with Razer™ HyperSpeed Wireless</p>
+                        <p>{text}</p>
                     </div>
                     <div className="LearnMore__right_price">
-                        <h3>US$159.99</h3>
+                        <h3>{price}</h3>
                     </div>
                     <div className="LearnMore__right_details">
                         <li>Razer™ Hyperspeed Wireless technology</li>
@@ -29,7 +46,7 @@ function LearnMore() {
                     <div className="LearnMore__right_card">
                         <p>Ships next business day</p>
 
-                        <button type='submit'>Add to Cart</button>
+                        <button onClick={addToBasket} type='submit'>Add to Cart</button>
                     </div>
 
                 </div>

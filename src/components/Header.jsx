@@ -8,7 +8,11 @@ import './Header.css'
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import TollOutlinedIcon from '@material-ui/icons/TollOutlined';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
-function header() {
+import { useStateValue } from "./StateProvider";
+function Header() {
+
+    const [{ basket, user }, dispatch] = useStateValue();
+
     const razerlogo='https://hybrismediaprod.blob.core.windows.net/sys-master-phoenix-images-container/h5b/h8c/8796147679262/razer.svg'
     return (
         <div className='header'>
@@ -45,12 +49,13 @@ function header() {
                     <SearchOutlinedIcon/>
 
                     <TollOutlinedIcon/>
-
-                    <ShoppingCartOutlinedIcon/>
+                    <Link to='/cart' style={{color:'#999',textDecoration:'none'}}>
+                        <span><ShoppingCartOutlinedIcon/>{basket.length}</span>
+                    </Link>
             </div>
         </div>
 
     )
 }
 
-export default header
+export default Header

@@ -6,6 +6,7 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Learnmore from './Learnmore';
 function Exclusive() {
     return (
         <div className='Exclusive'>
@@ -147,7 +148,10 @@ function Exclusive() {
                         </div>
 
                         <div className="Exclusive__mice__detail">
+                        <Link to='learnMore/razerViper'>
                             <p>Learn more</p>
+                         </Link>
+
                         </div>
                     </div>
                 </div>
@@ -172,7 +176,7 @@ function Exclusive() {
                        </div>
 
                        <div className="Exclusive__mice__detail">
-                           <Link to='/learnMore'>
+                       <Link to='/learnMore/razerNaga'>
                                <p>Learn more</p>
                            </Link>
                        </div>
@@ -207,7 +211,6 @@ function Exclusive() {
                    </div>
                </div>
                </div>
-
 
                <div className="Exclusive__mice__cont">
                

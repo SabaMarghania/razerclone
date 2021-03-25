@@ -1,0 +1,49 @@
+.Cart{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #000000;
+}
+.Cart__top{
+    width: 100%;
+    background-color: #1c1c1b;
+    font-size: 1.125rem;
+    padding: .9375rem 2rem ;
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.Cart__info{
+    display: flex;
+    width: 88%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Cart__sum h4{ 
+    font-family: Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: .875rem;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.Cart__btn {
+    margin-left: 10px;
+}
+.Cart__btn button{
+    border-radius: .1875rem;
+    color: #000;
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+    height: 2.5rem;
+    line-height: 1.4em;
+    max-height: none;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #44d62c;
+    border: 0;
+}

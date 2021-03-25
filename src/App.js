@@ -21,11 +21,17 @@ import LearnMoreHeadset from './components/LearnMoreHeadset'
 import LearnMoreHeadsetKraken from './components/LearnMoreHeadsetKraken'
 import LearnMoreHammerhead from './components/LearnMoreHammerhead'
 import LearnMoreAirpods from './components/LearnMoreAirpods'
+import Cart from './components/Cart'
 function App() {
   return (
     <>
     <Router>
     <Switch>
+    <Route path="/cart">
+          <Header/>
+          <Cart/>
+          <Footer/>
+        </Route>
     <Route path="/learnMore/Airpods">
           <Header/>
           <LearnMoreAirpods/>
@@ -50,24 +56,46 @@ function App() {
 
     <Route path="/learnMore/RazerViperUltimate">
           <Header/>
-          <LearnMoreViperUltimate/>
+          <LearnMoreViperUltimate
+          id='2'
+          title='Razer Viper Ultimate with Charging Dock - Cyberpunk 2077 Edition'
+          image='//assets3.razerzone.com/CbUjCHxcgkzPei8Ja6XmM9L-vro=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb3%2Fh83%2F9099485675550%2Fcyberpunk-2077-viper-ultimate-1500x1000-1.jpg'
+          text='Ambidextrous Gaming Mouse with Razer™ HyperSpeed Wireless '
+          price='US$159.99'/>
           <Footer/>
         </Route>
     <Route path="/learnMore/RazerQuartz">
           <Header/>
-          <LearnMoreQuartz/>
+          <LearnMoreQuartz
+          id='5'
+          title='Razer Atheris Quartz'
+          image='//assets3.razerzone.com/-98E7eOMu6R0u690u0SqnVGNpZA=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhc6%2Fh6f%2F9081444761630%2Fatheris-quartz-gallery-hero.jpg'
+          text='Ultimate Wireless Notebook Ergonomic Mouse
+          '
+          price='US$59.99'/>
           <Footer/>
         </Route>
 
     <Route path="/learnMore/RazerViper">
           <Header/>
-          <LearnMoreViper/>
+          <LearnMoreViper
+              id='3'
+              title='Razer Viper Ultimate with Charging Dock - Mercury'
+              image='//assets3.razerzone.com/HGM9zYZvi7mtaS3VeGzsoheixoY=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhac%2Fhd9%2F9085328097310%2Fviper-ultimate-mercury-Hero.jpg'
+              text='Ambidextrous Gaming Mouse with Razer™ HyperSpeed Wireles '
+              price='US$149'
+            />
           <Footer/>
         </Route>
        
     <Route path="/learnMore/RazerNaga">
           <Header/>
-          <LearnMoreNaga/>
+          <LearnMoreNaga
+          id='4'
+          title='Razer Naga Left-Handed Edition'
+          image='//assets3.razerzone.com/eYjVnOIhezgNUoP5Ji_c36rd98s=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhff%2Fh63%2F9081450889246%2FRazer-Naga-Left-Handed-Edition-Gallery0.jpg'
+          text='Ergonomic MMO Gaming Mouse for Left-Handed Users'
+          price='US$99.99'/>
           <Footer/>
         </Route>
        
