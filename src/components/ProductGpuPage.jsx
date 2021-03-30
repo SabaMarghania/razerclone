@@ -1,6 +1,26 @@
 import React from 'react'
 import './ProductGpuPage.css'
-function ProductGpuPage({price,image,title,item1,item2,item3}) {
+import { useStateValue } from "./StateProvider";
+
+function ProductGpuPage({price,id,image,title,compatible,windows,boost,}) {
+    const [{ basket }, dispatch] = useStateValue();
+    
+    const addToBasket = () => {
+        // dispatch the item into the data layer
+        dispatch({
+          type: "ADD_TO_BASKET",
+          item: {
+            id: id,
+            title: title,
+            image: image,
+            windows:windows,
+            boost:boost,
+            compatible:compatible,
+            price: price,
+          },
+        });
+      };
+    
     return (
         <div className='ProductGpuPage'>
          <div className='ProductGpuPage__cont'>
@@ -13,9 +33,9 @@ function ProductGpuPage({price,image,title,item1,item2,item3}) {
                 </div>
                 <div className="ProductGpuPage__specifications">
                     <ul>
-                        <li>{item1}</li>
-                        <li>{item2}</li>
-                        <li>{item3}</li>
+                        <li>{boost}</li>
+                        <li>{windows}</li>
+                        <li>{compatible}</li>
                     </ul>
                 </div>
                 <div className="ProductGpuPage__detials">
@@ -25,7 +45,7 @@ function ProductGpuPage({price,image,title,item1,item2,item3}) {
                     <h4>{price}</h4>
                 </div>
                 <div className="ProductGpuPage__button">
-                    <button type="submit">Add to card</button>
+                    <button onClick={addToBasket} type="submit">Add to card</button>
                 </div>
             </div>
         </div>

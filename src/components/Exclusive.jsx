@@ -30,7 +30,6 @@ function Exclusive() {
 
                 <div className="Exclusive__razer_info_grid__cont">
 
- {/* /**************** *  */}
                 <div className="Exclusive__razer_info_grid">
                   <div className="Exclusive__razer_info_image">
                     <img src='//assets2.razerzone.com/images/pnx.assets/1ff47ba883e4d75e6a7fdbfa7cc0cc8a/exclusive-items-icon.png' alt=''/>
@@ -123,7 +122,6 @@ function Exclusive() {
             </div>
 
 
-{/* /************************************** */ }
 
                 <div className="Exclusive__title">
                     <h2>EXCLUSIVE MICE</h2>
@@ -241,7 +239,6 @@ function Exclusive() {
 
             </div>
             
-{/* /*********************** */ }
             <div className="Exclusive__title">
                     <h2> EXCLUSIVE AUDIO</h2>
                 </div>

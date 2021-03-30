@@ -12,15 +12,24 @@
     color: #fff;
     padding-left: 20px;
 }
+.checkoutProduct__info_cont li{
+    color: #999;
+}
+.checkoutProduct__info_cont ul{
+    padding-top: 10px;
+    padding-left: 20px;
 
+}
 .checkoutProduct__info > button {
+    display: flex;
+    align-items: center;
     background: 0 0;
     text-decoration:underline;
     width: 50px;
-    margin-top: 40px;
     cursor: pointer;
+    outline: none;
     border:none;
-    height: 20px;
+    height: 100%;
     color: rgb(118, 118, 118);
 }
 
@@ -31,6 +40,7 @@
   }
 
 .checkoutProduct__title {
+    display: flex;
     padding-top: 30px;
     font-family: Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
     font-size: 17px;

@@ -6,7 +6,7 @@
     width: 70%;
 }
 .LearnMore__right{
-    width: 40%;
+    width: 65%;
     
     background-color: #000;
 }
@@ -80,4 +80,21 @@
     background-color: #44d62c;
     border: 0;
     width: 300px;
+}
+@media only screen and (max-width: 700px) {
+    .LearnMore{
+        flex-direction: column;
+    }
+    .LearnMore__right{
+        width: 100%;
+    }
+    .LearnMore__left{
+        width: 100%;
+    }
+    .LearnMore__right__cont{
+        padding: 2rem;
+    }
+    .LearnMore__right_card{
+        display: flex;
+    }
 }

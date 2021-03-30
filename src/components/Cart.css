@@ -47,6 +47,48 @@
     background-color: #44d62c;
     border: 0;
 }
+.Cart__noItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    color: #fff;
+    padding-top: 2rem;
+    height: 400px;
+    padding-bottom: 2rem;
+}
+.Cart__noItems h3{
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    line-height: 1.1em;
+}
+.Cart__noItems p{
+    padding-top: 10px;
+    text-align: center;
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    color: #999;
+}
+.Cart__noItems button{
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: .1875rem;
+    color: #000;
+    font-family: RazerF5,helvetica neue,Arial,noto sans,sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+    height: 2.5rem;
+    line-height: 1.4em;
+    max-height: none;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #44d62c;
+    border: 0;
+}
 .Cart__items{
     width: 150px;
 }

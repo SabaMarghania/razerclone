@@ -1,7 +1,9 @@
+
 .Body{
     padding-top: 3rem;
 }
 .Body__first_image{
+    width: 100%;
     height: 80vh;
     background-image: url('../image/razer.jpg');
     background-position: center bottom;
@@ -9,12 +11,14 @@
     background-size: cover;
 }
 .Body__second_image{
+    width: 100%;
     height: 80vh;
     background-image: url('../image/razer2.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .Body__first__text{
     display: flex;
     flex-direction: column;
@@ -24,6 +28,7 @@
     text-align: center;
 }
 .Body__third__image{
+    width: 100%;
     height: 80vh;
     background-image: url('../image/razer3.jpg');
     background-position: center bottom;
@@ -49,6 +54,7 @@
     
 }
 .Body__highlights{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -83,4 +89,19 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media only screen and (max-width: 1200px) {
+    
+    .Body__second_image{
+        width: 1200px;
+       }
+    .Body__third__image{
+     width: 1200px;
+    }
+    .Body__first_image {
+        width: 1200px;
+       }
+     .Body__highlights{
+        width: 1200px;
+     }
 }

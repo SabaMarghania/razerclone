@@ -18,7 +18,7 @@ function LaptopsPage() {
                 <div className="laptopsPage__navbar__links">
                   <div className="laptopsPage__navbar__cont">
                     <Link to='/products'style={{textDecoration:'none'}}>
-                        <p>Laptops</p>
+                        <p className='laptopsPage__active'>Laptops</p>
                     </Link>
                     <Link to='/egpus'style={{textDecoration:'none'}}>
                         <p>egpus</p>

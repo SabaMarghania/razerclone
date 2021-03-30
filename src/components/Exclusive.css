@@ -1,3 +1,6 @@
+.Exclusive{
+    width: 100%;
+}
 .Exclusive__image{
     background-image: url(//assets2.razerzone.com/images/pnx.assets/cb268908975016a4b746c2943c0763b6/exclusives-advantage-book13-hero-desktop.jpg);
     min-height: 700px;
@@ -34,9 +37,11 @@
     background-color: #111;
 }
 .Exclusive__razer_info_grid__cont{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 2rem;
-    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: 0 auto;
 }
 .Exclusive__razer_info_title{
     display: flex;
@@ -85,16 +90,17 @@
     text-align: center;
 }
 .Exclusive__mice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0 auto;
     padding-top: 2rem;  
-     display: grid;
-    grid-template-columns: repeat(4,1fr);
     padding-bottom: 2rem;
-    padding-left: 5rem;
 }
 .Exclusive__mice__cont{
     width: 280px;
     padding-top: 2rem;
+    padding-left: 0.8rem;
    
 }
 .Exclusive__mice__main{
@@ -152,4 +158,8 @@ padding: 10px;
 text-align: left;    
 color: #44d62c;
 width: 100%;
+}
+@media only screen and (max-width: 800px) {
+    
+ 
 }

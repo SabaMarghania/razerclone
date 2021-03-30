@@ -1,6 +1,25 @@
 import React from 'react'
+import { useStateValue } from "./StateProvider";
 import './AccessoriesPage.css'
-function AccessoriesPage({price,image,title,item1,item2,item3}) {
+function AccessoriesPage({price,id,image,title,about,info,info2}) {
+    const [{ basket }, dispatch] = useStateValue();
+    
+    const addToBasket = () => {
+        // dispatch the item into the data layer
+        dispatch({
+          type: "ADD_TO_BASKET",
+          item: {
+            id: id,
+            title: title,
+            image: image,
+            price: price,
+            about: about,
+            info:info,
+            info2:info2,
+          },
+        });
+      };
+    
     return (
         <div className='AccessoriesPage'>
          <div className='AccessoriesPage__cont'>
@@ -15,9 +34,9 @@ function AccessoriesPage({price,image,title,item1,item2,item3}) {
 
                 <div className="AccessoriesPage__specifications">
                     <ul>
-                        <li>{item1}</li>
-                        <li>{item2}</li>
-                        <li>{item3}</li>
+                        <li>{about}</li>
+                        <li>{info}</li>
+                        <li>{info2}</li>
                     </ul>
                 </div>
                 <div className="AccessoriesPage__detials">
@@ -29,7 +48,7 @@ function AccessoriesPage({price,image,title,item1,item2,item3}) {
                 </div>
                 </div>
                 <div className="AccessoriesPage__button">
-                    <button type="submit">Add to card</button>
+                    <button onClick={addToBasket} type="submit">Add to card</button>
                 </div>
             </div>
         </div>

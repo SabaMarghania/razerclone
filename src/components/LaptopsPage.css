@@ -31,9 +31,15 @@
     color:#44d62c;
     border-bottom: 2px solid #44d62c;
 }
+.laptopsPage__active{
+    color:#44d62c !important;
+    border-bottom: 2px solid #44d62c;
+}
 .laptopsPage__navbar__links{
     display: flex;
     justify-content: center;
+    width: 90%;
+    margin: 0 auto;
 }
 .laptopsPage__cards{
     display: flex;
@@ -41,7 +47,5 @@
     width: 90%;
     justify-content: center;
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
     margin-bottom: 50px;
 }

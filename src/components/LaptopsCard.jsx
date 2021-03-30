@@ -1,7 +1,28 @@
-import { TitleRounded } from '@material-ui/icons'
 import React from 'react'
+import { useStateValue } from "./StateProvider";
 import './LaptopsCard.css'
-function LaptopsCard({price,image,title,processor,windows,monitor,gpu,storage}) {
+function LaptopsCard({price,id,image,title,processor,windows,monitor,gpu,storage}) {
+    const [{ basket }, dispatch] = useStateValue();
+    
+    const addToBasket = () => {
+        // dispatch the item into the data layer
+        dispatch({
+          type: "ADD_TO_BASKET",
+          item: {
+            id: id,
+            title: title,
+            image: image,
+            processor:processor,
+            windows:windows,
+            monitor:monitor,
+            gpu:gpu,
+            storage:storage,
+            monitor:monitor,
+            price: price,
+          },
+        });
+      };
+    
     return (
         <div className='LaptopsCard'>
          <div className='LaptopsCard__cont'>
@@ -28,7 +49,7 @@ function LaptopsCard({price,image,title,processor,windows,monitor,gpu,storage}) 
                     <h4>{price}</h4>
                 </div>
                 <div className="laptopscard__button">
-                    <button type="submit">Add to card</button>
+                    <button onClick={addToBasket} type="submit">Add to card</button>
                 </div>
             </div>
         </div>

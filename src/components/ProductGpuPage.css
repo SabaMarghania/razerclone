@@ -74,3 +74,8 @@
     background-color: #44d62c;
     border: 0;
 }
+@media only screen and (max-width: 768px) {
+    .ProductGpuPage{
+        margin:  auto;
+    }
+}

@@ -50,7 +50,7 @@ function Header() {
 
                     <TollOutlinedIcon/>
                     <Link to='/cart' style={{color:'#999',textDecoration:'none'}}>
-                        <span><ShoppingCartOutlinedIcon/>{basket.length}</span>
+                        <span style={{display:'flex'}}><ShoppingCartOutlinedIcon/>{basket.length}</span>
                     </Link>
             </div>
         </div>
