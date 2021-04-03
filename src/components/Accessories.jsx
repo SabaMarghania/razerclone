@@ -17,7 +17,7 @@ function Accessories() {
                 <div className="Accessories__navbar__links">
                   <div className="Accessories__navbar__cont">
                       <Link to='/products' style={{textDecoration:'none'}}>
-                          <p>Laptops</p>
+                          <p className='laptopsPage__active'>Laptops</p>
                       </Link>
                       <Link to='/egpus'style={{textDecoration:'none'}}>
                         <p>egpus</p>

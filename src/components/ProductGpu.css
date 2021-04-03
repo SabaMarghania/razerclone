@@ -1,4 +1,7 @@
 .ProductGpu__navbar{
+    padding-top: 3rem;
+}
+.ProductGpu__navbar{
     background-color: #000;
     padding-bottom: 0.5rem;
 }
@@ -29,6 +32,10 @@
 .ProductGpu__navbar__links p:hover{
     color:#44d62c;
     border-bottom: 2px solid #44d62c;
+}
+.laptopsPage__active{
+    color:#44d62c;
+
 }
 .ProductGpu__navbar__links{
     display: flex;

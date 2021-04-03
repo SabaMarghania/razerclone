@@ -16,8 +16,8 @@ function ProductGpu() {
                 </div>
                 <div className="ProductGpu__navbar__links">
                   <div className="ProductGpu__navbar__cont">
-                      <Link to='/products' style={{textDecoration:'none'}}>
-                          <p>Laptops</p>
+                      <Link to='/products' style={{textDecoration:'none',color:' #44d62c'}}>
+                          <p className='laptopsPage__active'>Laptops</p>
                       </Link>
                       <Link to='/egpus'style={{textDecoration:'none'}}>
                         <p>egpus</p>

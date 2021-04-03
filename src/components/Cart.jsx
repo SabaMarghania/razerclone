@@ -8,26 +8,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import CurrencyFormat from 'react-currency-format'
+import {getBasketTotal} from './reducer'
+import Totalsum from './Totalsum';
 function Cart() {
-    const [{ basket,  }, dispatch] = useStateValue();
-    return (
-      <>
-        <div className='Cart'>
-            <div className="Cart__top">
-                <div className="Cart__items">
-                    <h3>Cart( {basket.length} Items)</h3>
-                </div>
-                <div className="Cart__info">
-                    <div className="Cart__sum">
-                      <h4>0</h4>
-                    </div>
-                    <div className="Cart__btn">
-                        <button type="submit">Checkout</button>
-                    </div>
-                </div>
-               
-            </div>
-            
+  const [{ basket,  }, dispatch] = useStateValue();
+
+  return (
+  <>
+        <Totalsum/>
+        
           {basket.length <= 0 ?
           <div className="Cart__noItems">
             <h3>Your cart is empty</h3> 
@@ -39,7 +29,8 @@ function Cart() {
           </div>
          :
              basket.map(item => (
-              <CheckoutProduct 
+              <CheckoutProduct key={item.id}
+
                 id={item.id}
                 title={item.title}
                 image={item.image}
@@ -60,10 +51,8 @@ function Cart() {
         }
 
 
-        </div>
-        
+        </>
              
-             </>
     )
 }
 

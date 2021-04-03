@@ -43,7 +43,7 @@ function CheckoutProduct({ id, image,boost,compatible,info,info2,about, title,pr
             
                
                 <p className="checkoutProduct__price">
-                    <strong>{price}</strong>
+                    <strong>${price}</strong>
                 </p>
                 
             </div>

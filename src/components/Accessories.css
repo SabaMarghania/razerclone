@@ -1,3 +1,6 @@
+.Accessories{
+    padding-top: 3rem;
+}
 .Accessories__navbar{
     background-color: #000;
     padding-bottom: 0.5rem;
@@ -35,4 +38,8 @@
     justify-content: center;
     width: 90%;
     margin: 0 auto;
+}
+.laptopsPage__active{
+    color:#44d62c;
+
 }

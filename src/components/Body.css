@@ -51,40 +51,38 @@
 }
 .body__text{
     font-size: 1.9rem !important;
-    
 }
 .Body__highlights{
-    width: 100%;
+    width: 85%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 auto;
+}
+.Body_card{
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
 }
 .Body__first_card{
-    height: 500px;
     background-image: url('../image/razercard1.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
-    width: 50%;
     background-size: cover;
 }
 .Body__second_card{
-    height: 500px;
     background-image: url('../image/razercard2.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
-    width: 50%;
     background-size: cover;
 }
 .Body__third_card{
-    width: 50%;
-    height: 500px;
     background-image: url('../image/razercard3.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .Body__fourth_card{
-    width: 50%;
-    height: 500px;
     background-image: url('../image/razercard4.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -92,16 +90,5 @@
 }
 @media only screen and (max-width: 1200px) {
     
-    .Body__second_image{
-        width: 1200px;
-       }
-    .Body__third__image{
-     width: 1200px;
-    }
-    .Body__first_image {
-        width: 1200px;
-       }
-     .Body__highlights{
-        width: 1200px;
-     }
+ 
 }

@@ -46,7 +46,7 @@ function LaptopsCard({price,id,image,title,processor,windows,monitor,gpu,storage
                     <p>View details</p>
                 </div>
                 <div className="laptopscard__price">
-                    <h4>{price}</h4>
+                    <h4>${price}</h4>
                 </div>
                 <div className="laptopscard__button">
                     <button onClick={addToBasket} type="submit">Add to card</button>

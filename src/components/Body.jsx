@@ -24,28 +24,28 @@ function Body() {
             </div>
 
             <div className="Body__highlights">
-                <div className="Body__first_card">
+                <div className="Body_card Body__first_card">
                     <div className="Body__first__text">
                     <h1 className="body__text">GAMING CHAIR WITH BUILT-IN <br/> LUMBAR SUPPORT. <br/> NOW AVAILABLE IN BLACK.</h1>
                     <span>Shop Razer Iskur</span>
                      </div>
                 </div>
 
-                <div className="Body__second_card">
+                <div className="Body_card Body__second_card">
                     <div className="Body__first__text">
                     <h1 className="body__text">MORE POWER. MORE CORES.<br/>MORE FRAMES.</h1>
                     <span>Up to $500 in Savings. Shop Razer Blade 15</span>
                      </div>
                 </div>
 
-                <div className="Body__third_card">
+                <div className="Body_card Body__third_card">
                     <div className="Body__first__text">
                     <h1 className="body__text">ULTRA-FAST. ULTRA-THIN. <br/>ULTRA-POWERFUL.<br/> NOW WITH GEFORCE RTX™ 30 SERIES.</h1>
                     <span>The Razer Blade Pro 17 Now Shipping</span>
                      </div>
                 </div>
 
-                <div className="Body__fourth_card">
+                <div className="Body_card Body__fourth_card">
                     <div className="Body__first__text">
                     <h1 className="body__text">COMPACT. MODULAR. PERFORMANCE.</h1>
                     <span>Razer Tomahawk Gaming Desktop Now Shipping</span>

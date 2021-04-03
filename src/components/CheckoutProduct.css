@@ -3,6 +3,7 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .checkoutProduct__info {
@@ -55,4 +56,9 @@
 .checkoutProduct__price{
     padding-top: 30px;
 
+}
+@media only screen and (max-width: 600px) {
+    .checkoutProduct__info{
+        flex-direction: column;
+    }
 }

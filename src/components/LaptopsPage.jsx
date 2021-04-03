@@ -34,7 +34,7 @@ function LaptopsPage() {
 
             <div className="laptopsPage__cards">
                 <LaptopsCard
-                price='US$2,599.99'
+                price={2599}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade 15 Advanced Edition - Full HD 360Hz - GeForce RTX 3080 - Black'
                 processor='Intel Core i7-10875H'
@@ -44,7 +44,7 @@ function LaptopsPage() {
                 storage='32GB RAM, 1TB SSD'/>
              
                 <LaptopsCard
-                price='US$2,199.99'
+                price={2199}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade 15 Base Edition - QHD 165Hz - GeForce RTX 3070 - Black'
                 processor='Intel Core i7-10750H'
@@ -54,7 +54,7 @@ function LaptopsPage() {
                 storage=' 16GB RAM, 512GB SSD'/>
 
                 <LaptopsCard
-                price='US$2,599.99'
+                price={2599}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade 15 Advanced Edition - Full HD 360Hz - GeForce RTX 3070 - Black'
                 processor='Intel Core i7-10875H'
@@ -64,7 +64,7 @@ function LaptopsPage() {
                 storage='16GB RAM, 1TB SSD'/>
 
                 <LaptopsCard
-                price='US$2,399.99'
+                price={2399}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade Pro 17 - Full HD 360Hz - GeForce RTX 3060 - Black'
                 processor='Intel Core i7-10875H'
@@ -74,7 +74,7 @@ function LaptopsPage() {
                 storage='16GB RAM, 512GB SSD'/>
 
                 <LaptopsCard
-                price='US$1,999.99'
+                price={1999}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade 15 Base Edition - Full HD 144Hz - GeForce RTX 3070 - Black'
                 processor='Intel Core i7-10750H'
@@ -84,7 +84,7 @@ function LaptopsPage() {
                 storage='16GB RAM, 512GB SSD'/>
                 
                 <LaptopsCard
-                price='US$2,299.99'
+                price={2299}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade 15 Advanced Edition - Full HD 360Hz - GeForce RTX 3080 - Black'
                 processor='Intel Core i7-10875H'
@@ -94,7 +94,7 @@ function LaptopsPage() {
                 storage='16GB RAM, 512GB SSD'/>
 
                 <LaptopsCard
-                price='US$2,599.99'
+                price={2599}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade Pro 17 - QHD 165Hz - GeForce RTX 3070 - Black'
                 processor='Intel Core i7-10875H'
@@ -104,7 +104,7 @@ function LaptopsPage() {
                 storage='16GB RAM, 512GB SSD'/>
 
                 <LaptopsCard
-                price='UUS$2,499.99'
+                price={2499}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade 15 Advanced Edition - QHD 240Hz - GeForce RTX 3070 - Black'
                 processor='Intel Core i7-10875H'
@@ -113,7 +113,7 @@ function LaptopsPage() {
                 gpu='GeForce RTX 3070'
                 storage='16GB RAM, 1TB SSD'/>
                 <LaptopsCard
-                price='US$2,599.99'
+                price={2599}
                 image='https://assets3.razerzone.com/1KA0GNAysVFn20_WwdEcXK-BEkk=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe7%2Fhf8%2F9135865692190%2Frazer-blade-15-early2021-advanced-FHD-500x500.png'
                 title='Razer Blade 15 Advanced Edition - Full HD 360Hz - GeForce RTX 3080 - Black'
                 processor='Intel Core i7-10875H'
