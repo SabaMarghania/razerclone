@@ -35,7 +35,7 @@ function LearnMore({id,title,image,text,price}) {
                         <p>{text}</p>
                     </div>
                     <div className="LearnMore__right_price">
-                        <h3>{price}</h3>
+                        <h3>${price}</h3>
                     </div>
                     <div className="LearnMore__right_details">
                         <li>True Left-Handed Ergonomic Design</li>

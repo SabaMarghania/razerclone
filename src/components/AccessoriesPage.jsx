@@ -44,7 +44,7 @@ function AccessoriesPage({price,id,image,title,about,info,info2}) {
                 </div>
 
                 <div className="AccessoriesPage__price">
-                    <h4>{price}</h4>
+                    <h4>${price}</h4>
                 </div>
                 </div>
                 <div className="AccessoriesPage__button">

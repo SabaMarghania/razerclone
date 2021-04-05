@@ -42,7 +42,7 @@ function ProductGpuPage({price,id,image,title,compatible,windows,boost,}) {
                     <p>View details</p>
                 </div>
                 <div className="ProductGpuPage__price">
-                    <h4>{price}</h4>
+                    <h4>${price}</h4>
                 </div>
                 <div className="ProductGpuPage__button">
                     <button onClick={addToBasket} type="submit">Add to card</button>

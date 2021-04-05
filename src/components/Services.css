@@ -1,0 +1,102 @@
+
+.Services{
+    padding-top: 3rem;
+    width: 100%;
+}
+.Services__top__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 3rem;
+    background-color: #111;
+    padding-bottom: 3rem;
+    height: auto;
+}
+.Services__top-title h1{
+    color: #44D62C;
+    font-size: 2.25rem;
+    line-height: 46px;
+    font-weight: 200;
+}
+.Services__top-text{
+    max-width: 950px;
+    padding-top: 1rem;
+}
+.Services__top-text p{
+    color: #999;
+    font-size: 1.125rem;
+    font-weight: 300;    
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.75rem;
+}
+.Servces__body__background{
+    background-image: url("../image/services-razer-gold.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 700px;
+}
+.Services__body-title h1{
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-top: 2rem;
+    text-align: center;
+}
+.Services__body-text{
+    max-width: 930px;   
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+.Services__body-text p{
+    color: #999;
+    font-family: Roboto, sans-serif;
+    padding: 1rem;
+    font-size: 1.125em;
+    text-align: center;
+    font-weight: 300;
+
+}
+.Services__learnmore{
+    color: #44d62c;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1rem;
+}
+.Servces__footer__background{
+    background-image: url("../image/services-razer-silver.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 700px;
+}
+.Services__footer-title h1{
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-top: 2rem;
+    text-align: center;
+}
+.Services__footer-text{
+    max-width: 930px;   
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+.Services__footer-text p{
+    color: #999;
+    font-family: Roboto, sans-serif;
+    padding: 1rem;
+    font-size: 1.125em;
+    text-align: center;
+    font-weight: 300;
+
+}

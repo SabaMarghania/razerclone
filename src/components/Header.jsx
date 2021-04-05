@@ -34,15 +34,17 @@ function Header() {
                   </div>
                 </Link>
 
+                <Link to="/mobile" style={{textDecoration:'none'}}>
                 <div className="header__link">
-                    <h5>Apps & Downloads</h5>
+                    <h5>Mobile</h5>
                 </div>
+                </Link>
+
+                <Link to="/services" style={{textDecoration:'none'}}>
                 <div className="header__link">
-                    <h5>Explore</h5>
+                    <h5>Services</h5>
                 </div>
-                <div className="header__link">
-                    <h5>Support</h5>
-                </div>
+                </Link>
             </div>
 
             <div className="header__icons">
