@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/razerclone/static/css/main.13b59716.chunk.css",
-    "main.js": "/razerclone/static/js/main.6a9d62a3.chunk.js",
-    "main.js.map": "/razerclone/static/js/main.6a9d62a3.chunk.js.map",
-    "runtime-main.js": "/razerclone/static/js/runtime-main.872ac113.js",
-    "runtime-main.js.map": "/razerclone/static/js/runtime-main.872ac113.js.map",
-    "static/js/2.701c91c2.chunk.js": "/razerclone/static/js/2.701c91c2.chunk.js",
-    "static/js/2.701c91c2.chunk.js.map": "/razerclone/static/js/2.701c91c2.chunk.js.map",
-    "static/js/3.2892d246.chunk.js": "/razerclone/static/js/3.2892d246.chunk.js",
-    "static/js/3.2892d246.chunk.js.map": "/razerclone/static/js/3.2892d246.chunk.js.map",
+    "main.css": "/razerclone/static/css/main.6d33417b.chunk.css",
+    "main.js": "/razerclone/static/js/main.51053379.chunk.js",
+    "main.js.map": "/razerclone/static/js/main.51053379.chunk.js.map",
+    "runtime-main.js": "/razerclone/static/js/runtime-main.a087613b.js",
+    "runtime-main.js.map": "/razerclone/static/js/runtime-main.a087613b.js.map",
+    "static/js/2.63940a46.chunk.js": "/razerclone/static/js/2.63940a46.chunk.js",
+    "static/js/2.63940a46.chunk.js.map": "/razerclone/static/js/2.63940a46.chunk.js.map",
+    "static/js/3.4d5adfb3.chunk.js": "/razerclone/static/js/3.4d5adfb3.chunk.js",
+    "static/js/3.4d5adfb3.chunk.js.map": "/razerclone/static/js/3.4d5adfb3.chunk.js.map",
     "index.html": "/razerclone/index.html",
-    "static/css/main.13b59716.chunk.css.map": "/razerclone/static/css/main.13b59716.chunk.css.map",
-    "static/js/2.701c91c2.chunk.js.LICENSE.txt": "/razerclone/static/js/2.701c91c2.chunk.js.LICENSE.txt",
-    "static/media/Body.css": "/razerclone/static/media/razercard4.ee4c6203.jpg"
+    "static/css/main.6d33417b.chunk.css.map": "/razerclone/static/css/main.6d33417b.chunk.css.map",
+    "static/js/2.63940a46.chunk.js.LICENSE.txt": "/razerclone/static/js/2.63940a46.chunk.js.LICENSE.txt",
+    "static/media/Mobile.css": "/razerclone/static/media/mobile-background.31cd919b.jpg",
+    "static/media/Body.css": "/razerclone/static/media/razercard4.ee4c6203.jpg",
+    "static/media/Services.css": "/razerclone/static/media/services-razer-silver.5543d946.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.872ac113.js",
-    "static/js/2.701c91c2.chunk.js",
-    "static/css/main.13b59716.chunk.css",
-    "static/js/main.6a9d62a3.chunk.js"
+    "static/js/runtime-main.a087613b.js",
+    "static/js/2.63940a46.chunk.js",
+    "static/css/main.6d33417b.chunk.css",
+    "static/js/main.51053379.chunk.js"
   ]
 }
