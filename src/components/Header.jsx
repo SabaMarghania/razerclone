@@ -9,16 +9,17 @@ import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import TollOutlinedIcon from '@material-ui/icons/TollOutlined';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import { useStateValue } from "./StateProvider";
+import LOGO from '../image/razer-ths-logo.svg'
 function Header() {
 
     const [{ basket, user }, dispatch] = useStateValue();
 
-    const razerlogo='https://hybrismediaprod.blob.core.windows.net/sys-master-phoenix-images-container/h56/h3c/9163652366366/razer-ths-logo.svg'
+    // const razerlogo=''
     return (
         <div className='header'>
             <Link to="/home" style={{marginLeft:'8%'}}>
             <div className="header__image">
-                <img src={razerlogo} alt="Razer logo"/>
+                <img src={LOGO} alt="Razer logo"/>
             </div>
             </Link>
             <div className="header__links">
