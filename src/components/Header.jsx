@@ -13,7 +13,7 @@ function Header() {
 
     const [{ basket, user }, dispatch] = useStateValue();
 
-    const razerlogo='https://hybrismediaprod.blob.core.windows.net/sys-master-phoenix-images-container/had/h3c/9163652399134/razer-ths-logo.svg'
+    const razerlogo='https://hybrismediaprod.blob.core.windows.net/sys-master-phoenix-images-container/h56/h3c/9163652366366/razer-ths-logo.svg'
     return (
         <div className='header'>
             <Link to="/home" style={{marginLeft:'8%'}}>
